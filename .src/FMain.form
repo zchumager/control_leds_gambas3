@@ -1,0 +1,47 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,112,36)
+  { btnLed1 Button
+    MoveScaled(9,8,11,10)
+  }
+  { cbSecuencias ComboBox
+    MoveScaled(27,26,33,4)
+    Text = ("Elige una secuencia")
+  }
+  { btnPlayStop Button
+    MoveScaled(63,26,28,4)
+    Text = ("Iniciar/Parar secuencia")
+  }
+  { btnLed2 Button
+    MoveScaled(22,8,11,10)
+  }
+  { btnLed3 Button
+    MoveScaled(35,8,11,10)
+  }
+  { btnLed4 Button
+    MoveScaled(48,8,11,10)
+  }
+  { btnLed5 Button
+    MoveScaled(61,8,11,10)
+  }
+  { btnLed6 Button
+    MoveScaled(74,8,11,10)
+  }
+  { btnLed7 Button
+    MoveScaled(87,8,11,10)
+  }
+  { btnLed8 Button
+    MoveScaled(100,8,11,10)
+  }
+  { aumentoKit #Timer
+    #MoveScaled(94,27)
+  }
+  { disminucionKit #Timer
+    #MoveScaled(103,27)
+  }
+  { Label1 Label
+    MoveScaled(14,26,12,4)
+    Text = ("Secuencias")
+  }
+}
